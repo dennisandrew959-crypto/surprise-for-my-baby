@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Para sa'yo, Mahal 🌿</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="leaf-bg" aria-hidden="true"></div>
+
+  <!-- CONTAINER 1: Surprise letter -->
+  <section class="container letter-card">
+    <span class="mocha-icon" title="mocha">☕</span>
+    <h1 class="handwriting">Hi, Mahal ko...</h1>
+    <div class="letter">
+      <p>May surprise ako sayo. 🌿</p>
+      <p>Alam kong pagod ka na sa trabaho buong araw.
+         Gusto ko lang ipaalam na nandito lang ako,
+         laging handang maging pahinga at tahanan mo.</p>
+      <p>get ready bebe mwahahaha</p>
+    </div>
+    <button id="letterBtn" class="letter-btn">💌 Heres a short Letter for my Pretty Atty</button>
+  </section>
+
+  <!-- MUSIC BUTTON -->
+  <section class="container music-card">
+    <span class="mocha-icon" title="mocha">☕</span>
+    <h2>Para sa'yo ang kantang 'to 🎶</h2>
+    <p class="hint">push mo bebe hehe</p>
+    <button id="musicBtn" class="music-btn">🎵 Play Our Song</button>
+    <div id="musicBox" class="media-box"></div>
+  </section>
+
+  <!-- CONTAINER 3: The big button -->
+  <section class="container button-card">
+    <span class="mocha-icon" title="mocha">☕</span>
+    <h2>heres a little picture of us pampagaan ng pakiramdam mo hehe</h2>
+    <button id="pushBtn" class="push-btn">PUSH THE BUTTON 💚</button>
+  </section>
+
+  <!-- LETTER MODAL -->
+  <div id="letterModal" class="modal" aria-hidden="true">
+    <div class="modal-content letter-modal">
+      <button id="closeLetter" class="close-btn" aria-label="Isara">✕</button>
+      <h2 class="handwriting modal-title">Para sa'yo, bebe 💌</h2>
+      <div class="letter-text">
+        <p>hello bebe, heres a simple gift for my asawa kong sobrang sobrang sipag at sobrang ganda</p>
+        <p>i know lately sobrang pagod at busy mo, minsan nalang din tayo mag usap kasi mag uusap tayo pero pang gabi lang kasi pagod ka at tulog at pahinga nalang ang oras nating dalawa pero okay lang yun atleast Kahit papano nakakapag pahinga padin tayo sa isa isa, sobrang sobrang tahnk full ko kay Lord dahil nag karoon ako ng chance na ligawin at mahalin ka ng buong buo, pangako kong dika iiwan at mamahalin ng buong buo magpakailan man, gagawen ko lahat for you bebe, sorry bebe etoh lang munsa as of now but soon, mas bonga patoh kesa sa inaaasahan mo, my future girlfriend, wife and love of my life, please focus kalang and lock in lang ha,di ako aalis sa tabi mo, dito lang ako at handing sumuporta at mag guide sa way mo papunta sa mga golds and dreams mo, i love you always bebe mwa mwa mwa</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- GALLERY MODAL -->
+  <div id="galleryModal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button id="closeModal" class="close-btn" aria-label="Isara">✕</button>
+      <h2 class="handwriting modal-title">Our Moments 🌿❤️</h2>
+      <div class="gallery">
+        <figure><img src="image/pics1.jpg" alt="Alaala 1" /></figure>
+        <figure><img src="image/pics2.jpg" alt="Alaala 2" /></figure>
+        <figure><img src="image/pics3.jpg" alt="Alaala 3" /></figure>
+        <figure><img src="image/pics4.jpg" alt="Alaala 4" /></figure>
+        <figure><img src="image/pics5.jpg" alt="Alaala 5" /></figure>
+        <figure><img src="image/pics6.jpg" alt="Alaala 6" /></figure>
+        <figure><img src="image/pics7.jpg" alt="Alaala 7" /></figure>
+        <figure><img src="image/pics8.jpg" alt="Alaala 8" /></figure>
+        <figure><img src="image/pics9.jpg" alt="Alaala 9" /></figure>
+        <figure><img src="image/pics10.jpg" alt="Alaala 10" /></figure>
+        <figure><img src="image/pics11.jpg" alt="Alaala 10" /></figure>
+        <figure><img src="image/pics12.jpg" alt="Alaala 10" /></figure>
+      </div>
+      <p class="modal-note">Thank you for everything bebe. Mahal na mahal kita palagi. 🌿</p>
+    </div>
+  </div>
+
+  <audio id="bgMusic" loop>
+    <source src="musics/our-song.mp3" type="audio/mpeg" />
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
